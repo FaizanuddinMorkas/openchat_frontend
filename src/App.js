@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const API_BASE_URL = 'http://10.10.159.63:3001';
+const API_BASE_URL = 'https://api.openchat.co.in';
 const MODELS = [
-  { value: 'tngtech/deepseek-r1t-chimera:free', label: 'DeepSeek R1T Chimera (Free)' },
+  // { value: 'tngtech/deepseek-r1t-chimera:free', label: 'DeepSeek R1T Chimera (Free)' },
   { value: 'tngtech/deepseek-r1t2-chimera:free', label: 'DeepSeek R1T2 Chimera (Free)' },
   { value: 'openai/gpt-oss-20b:free', label: 'GPT OSS 20B (Free)' },
   { value: 'google/gemma-3-27b-it:free', label: 'Gemma 3 27B IT (Free)' },
